@@ -44,7 +44,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 group :development do 
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem 'binding_of_caller'
   gem 'annotate'
   gem 'rspec-rails' , '>= 3.0.0'
@@ -53,7 +53,7 @@ end
 
 group :test do 
   gem 'faker' 
-  gem 'capybara' 
+  gem 'capybara' , '>= 2.2.1'
   gem 'guard-rspec' 
   gem 'launchy' 
 end
