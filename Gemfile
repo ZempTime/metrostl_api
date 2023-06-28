@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.3.5'
+gem 'rails', '6.1.7.4'
 
 gem "mysql2", "~> 0.3.15"
 
@@ -21,7 +21,7 @@ gem 'coffee-rails', '~> 4.2.2'
 gem 'jquery-rails', '>= 4.0.1'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks', '>= 2.2.0'
+gem 'turbolinks', '>= 2.2.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -48,7 +48,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'annotate'
   gem 'rspec-rails' , '>= 3.0.0'
-  gem 'factory_girl_rails' , '>= 4.3.0'
+  gem 'factory_girl_rails' , '>= 4.4.0'
 end
 
 group :test do 
