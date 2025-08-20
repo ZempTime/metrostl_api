@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.3.5'
+gem 'rails', '7.1.5.2'
 
 gem "mysql2", "~> 0.3.15"
 
@@ -46,7 +46,7 @@ end
 group :development do 
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'annotate'
+  gem 'annotate', '>= 2.6.1'
   gem 'rspec-rails' , '>= 3.0.0'
   gem 'factory_girl_rails' , '>= 4.3.0'
 end
